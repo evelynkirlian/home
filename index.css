@@ -1,0 +1,177 @@
+body{
+	background-color: #22252b;
+	margin: 0px;
+}
+
+/* A Modal (background) */
+.modal {
+    margin: auto;
+    display: none; /* Escondida */
+    position: fixed; /* Sempre na mesma posição */
+    z-index: 1; /* Na frente dos demais elementos */
+    padding-top: 20px; /* Padding */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: (0,0,0);
+    background-color: #22252b80;
+}
+
+.controle{
+    width:100%;
+    height: 10%;
+}
+
+.rect {
+
+    background-color: #e8e8eb;
+    z-index: 1;
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-color: #e8e8eb;
+}
+
+.navegacao {
+    width:30%;
+    float: left;
+    padding-left: 9%;
+    padding-top: 10% 
+
+}
+
+/* Conteúdo da Modal */
+.modal-content {
+    
+    background-color: #e8e8eb;
+    margin: auto;
+    padding: 55px;
+    padding-right: 0px;
+    width: 85%;
+    height: 80%;
+}
+
+/* Botão de fechar */
+.close {
+    
+    margin: auto;
+    color: #e8e8eb;
+    font-size: 28px;
+    font-weight: bold;
+    background: #22252b;
+    border-right: 10px;
+    border-color: #22252b;
+    padding-left: 45px;
+
+}
+
+.close:hover,
+.close:focus {
+    color: #ffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    position: relative;
+    left: 90%;
+    top: 50px;
+    background: transparent;
+    border: 0px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: "Tahoma", Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    border-right: 0px; 
+    padding: 0;
+    margin:0;
+    width: 300px;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    font-family: LatoRegular;
+    font-size: 48px;
+    position: relative;
+    left: 10%;
+    
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #22252b;
+}
+
+/* visited link */
+a:visited {
+    color: #3e6bb4;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0080ff;
+}
+
+/* selected link */
+a:active {
+    color: #3e6bb4;
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBoldItalic;
+    src: url(Lato-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src:url(Lato-Regular.ttf);
+
+}
+
+
+.secondcolumn{
+
+    float: left;
+    padding-left: 9%;
+    padding-top:15%;
+}
+
+.firstcolumn{
+    
+    height: 500px;
+    width: 300px;
+}
+
+.normal{
+
+    font-family: LatoRegular;
+    font-size: 35px;
+    color: #22252b;
+}
+
+
+.italico{
+    font-family: LatoBoldItalic;
+    font-size: 35px;
+    color: #0080ff;
+
+}
