@@ -151,6 +151,12 @@ a:active {
 
 }
 
+@font-face{
+    font-family: LatoLight;
+    src:url(Lato-Light.ttf);
+
+}
+
 
 .secondcolumn{
 
@@ -212,24 +218,24 @@ hr{
 
 h3{
     width: 60%;
-    text-align: left;
+    text-align: center;
     margin: auto;
-    font-family: LatoRegular;
+    font-family: LatoLight;
     font-size: 30px;
     color: #22252b;
-    letter-spacing: 3px;
-    line-height: 1.80;
+    letter-spacing: 1px;
+    line-height: 1.50;
 }
 
 h4{
     width: 5%;
-    text-align: left;
+    text-align: center;
     margin: auto;
     font-family: LatoRegular;
     font-size: 30px;
     color: #0080ff;
     letter-spacing: 0px;
-    line-height: 1.80;
+    line-height: 1.0;
     text-decoration:underline;
     cursor: pointer;
 }
@@ -239,29 +245,29 @@ h4{
 }
 
 /* unvisited link */
-#b:link {
+.b:link {
     color: #0080ff;
 }
 
 /* visited link */
-#b:visited {
+.b:visited {
     color: #3e6bb4;
 }
 
 /* mouse over link */
-#b:hover {
+.b:hover {
     color: #0080ff;
 }
 
 /* selected link */
-#b:active {
+.b:active {
     color: #3e6bb4;
 }
 
 .box {
 
     float: left;
-    width: 25%;
+    width: 50%;
     padding-top: 70px;
     font-family: LatoRegular;
     font-size: 15px;
@@ -271,7 +277,27 @@ h4{
 }
 
 .container2{
+    margin: auto;
+    width:60%;
+}
+
+h5{
+    text-align: center;
+    margin: auto;
+    font-family: LatoRegular;
+    font-size: 20px;
+    color: #0080ff;
+    letter-spacing: 0px;
+    line-height: 1.0;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.container{
     width:100%;
+    margin: 0px;
+    text-align: center;
 }
 
 footer{

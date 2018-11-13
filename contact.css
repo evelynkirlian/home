@@ -152,6 +152,11 @@ a:active {
 
 }
 
+@font-face{
+    font-family: LatoLight;
+    src:url(Lato-Light.ttf);
+
+}
 
 .secondcolumn{
 
@@ -265,6 +270,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: LatoLight;
 }
 
 input[type=submit] {
@@ -274,10 +280,12 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: LatoLight;
 }
 
 input[type=submit]:hover {
     background-color: #0080ff;
+    font-family: LatoLight;
 }
 
 .container {
@@ -289,4 +297,52 @@ input[type=submit]:hover {
     padding: 20px;
     width: 50%;
     color: #e8e8eb;
+    font-family: LatoLight;
+}
+
+footer{
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: #22252b;
+
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #e8e8eb;
+    text-align: center;
+    line-height: 1.80;
+
+}
+
+.parte{
+
+    width: 50%;
+    height: 200px;
+    float: left;
+    margin: auto;
+}
+
+#evelynkirlianfooter{
+    width: 81.90px;
+    height: 32.10px;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#github{
+    width: 33px;
+    height: 33px;
+    padding: 5px;
+    padding-top: 50px;
+    cursor: pointer;
+
 }

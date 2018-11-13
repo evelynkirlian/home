@@ -6,7 +6,15 @@ html{
 body{
 	background-color: #22252b;
 	margin: auto;
+    opacity: 1;
+    transition: 1s opacity;
 
+}
+
+body.fade {
+    opacity: 0;
+
+    transition-duration: 2s;
 }
 
 header{
@@ -187,6 +195,9 @@ a:active {
 }
 
 #logotipo {
+    background: transparent;
+    position: relative;
+    animation: move 2s;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -199,3 +210,13 @@ a:active {
     width: 163.80px;
     height: 64.20px;
 }
+
+@keyframes move {
+    0%   {
+        top: 25px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
