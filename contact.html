@@ -1,0 +1,90 @@
+<!doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<meta charset="utf-8">
+	<title>Evelyn Kirlian - Contato</title>
+
+    
+</head>
+<body>
+
+	<header>
+	<!-- Botão de abrir o botão menu -->
+	<button class="button" id= 'myBtn'>&equiv;</button>
+
+	<img src="assets/evelynkirlianpreto.png" id="evelynkirlianpreto" alt="Evelyn Kirlian" class="logopeq">
+
+	<h1>Contato</h1>
+	<div class="position">
+		<hr/>
+	</div>
+	
+
+	</header>
+
+
+	<!-- A Modal Box -->
+	<div id="myModal" class="modal">
+
+	<!-- Conteúdo da modal, esse &times equivale a "x". a gente usa ele pq senão o browser confunde com o "multipicador" -->
+	  <div class="modal-content">
+
+	  		<div class="controle">
+			  	<div class="rect">
+					<div class="close">&times;</div>
+				</div>
+			</div>
+				
+				<div class="navegacao">
+						<ul>
+						  <li><a href="index.html">Início</a></li>
+						  <li><a href="about.html">Sobre</a></li>
+						  <li><a href="contabilidade.html">Contabilidade</a></li>
+						  <li><a href="midias.html">Mídias</a></li>
+						  <li><a href="musica.html">Música</a></li>
+						  <li><a href="contact.html">Contato</a></li>
+						</ul>
+				</div>
+
+		<div class="secondcolumn">
+
+			<p class="normal">Entre em contato <br>
+			<strong class="italico">contato@evelynkirlian.com.br</strong></p>
+
+		</div>
+
+	    </div>
+	        
+	        
+	  </div>
+
+
+	<div class="container">
+	  <form action="mailto:evelyn@evelynkirlian.com.br" method="post" enctype="text/plain">
+	    <label for="fname">Nome Completo</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Digite seu nome">
+
+	    <label for="email">Email</label>
+	    <input type="text" id="email" name="email" placeholder="seu email aqui">
+
+	    <label for="interesse">Área de Interesse</label>
+	    <select id="interesse" name="interesse">
+	      <option value="contabilidade">Contabilidade</option>
+	      <option value="midias">Mídias</option>
+	      <option value="musica">Música</option>
+	    </select>
+
+	    <label for="mensagem">Mensagem</label>
+	    <textarea id="mensagem" name="mensagem" placeholder="Mensagem..."></textarea>
+
+	    <input type="submit" value="Submit">
+	  </form>
+	</div>
+
+	
+<script src="sketch.js"></script>
+
+</body>
+
+</html>
