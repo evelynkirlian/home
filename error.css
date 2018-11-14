@@ -1,6 +1,6 @@
 body{
 	background-color: #e8e8eb;
-	margin: 0px;
+	margin: auto;
 }
 
 /* A Modal (background) */
@@ -262,27 +262,12 @@ h4{
     color: #3e6bb4;
 }
 
-.content:after {
-    content: '_';
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca .7s infinite;
-}
-
-@keyframes pisca {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
 footer{
     margin-top: 50px;
     float: left;
     width: 100%;
-    height: 200px;
+    bottom: 0;
+    height:100vh;
     background: #22252b;
 
     font-family: LatoRegular;
@@ -296,7 +281,8 @@ footer{
 .parte{
 
     width: 50%;
-    height: 200px;
+    height: auto;
+    bottom: 0;
     float: left;
     margin: auto;
 }
@@ -322,5 +308,62 @@ footer{
     padding: 5px;
     padding-top: 50px;
     cursor: pointer;
+    background: #e8e8eb;
+}
 
+.box {
+
+    float: left;
+    width: 33.33%;
+    padding-top: 70px;
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #22252b;
+    text-align: center;
+    line-height: 1.80;
+    background: #fff;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.container2{
+    width:100%;
+    margin: auto;
+}
+
+h5 {
+    text-align: center;
+    margin: auto;
+    font-family: LatoRegular;
+    font-size: 20px;
+    color: #0080ff;
+    letter-spacing: 0px;
+    line-height: 1.0;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.typecode{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.blogmami{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+    margin: auto;
+    width: 200px;
+    height: 126.5px;
+}
+
+#psantos{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+    margin: auto;
+    width: 200px;
+    height: 126.5px;
+}
+
+.image{
+    margin: auto;
+    height: 200px;
+    width: 300px;
 }

@@ -1,0 +1,369 @@
+body{
+	background-color: #e8e8eb;
+	margin: auto;
+}
+
+/* A Modal (background) */
+.modal {
+    margin: auto;
+    display: none; /* Escondida */
+    position: fixed; /* Sempre na mesma posição */
+    z-index: 1; /* Na frente dos demais elementos */
+    padding-top: 20px; /* Padding */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8eb;
+}
+
+.controle{
+    width:100%;
+    height: 10%;
+}
+
+.rect {
+
+    background-color: #22252b;
+    z-index: 1;
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-color: #22252b;
+}
+
+.navegacao {
+    width:30%;
+    float: left;
+    padding-left: 9%;
+    padding-top: 6% 
+
+}
+
+/* Conteúdo da Modal */
+.modal-content {
+    
+    background-color: #22252b;
+    margin: auto;
+    padding: 55px;
+    padding-right: 0px;
+    width: 85%;
+    height: 80%;
+}
+
+/* Botão de fechar */
+.close {
+    
+    margin: auto;
+    color: #22252b;
+    font-size: 28px;
+    font-weight: bold;
+    background: #e8e8eb;
+    border-right: 10px;
+    border-color: #e8e8eb;
+    padding-left: 45px;
+
+}
+
+.close:hover,
+.close:focus {
+    color: #22252b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    float: right;
+    background: transparent;
+    border: 0px;
+    color: black;
+    padding: 15px;
+    padding-top: 70px;
+    padding-right: 8%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: "Tahoma", Tahoma, sans-serif;
+    font-size: 30px;
+    margin:0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    border-right: 0px; 
+    padding: 0;
+    margin:0;
+    width: 300px;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    font-family: LatoRegular;
+    font-size: 48px;
+    position: relative;
+    left: 10%;
+    
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #3e6bb4;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0080ff;
+}
+
+/* selected link */
+a:active {
+    color: #3e6bb4;
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoBoldItalic;
+    src: url(Lato-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: LatoLight;
+    src:url(Lato-Light.ttf);
+
+}
+
+
+.secondcolumn{
+
+    float: left;
+    padding-left: 9%;
+    padding-top:15%;
+}
+
+.firstcolumn{
+    
+    height: 500px;
+    width: 300px;
+}
+
+.normal{
+    font-family: LatoRegular;
+    font-size: 35px;
+    color: #e8e8eb;
+}
+
+
+.italico{
+    font-family: LatoBoldItalic;
+    font-size: 35px;
+    color: #0080ff;
+}
+
+.logopeq{
+    margin: auto;
+    padding-left: 6%;
+    padding-top: 70px;
+    width: 163.80px;
+    height: 64.20px;
+}
+
+h1{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0px;
+    font-family: LatoBold;
+    font-size: 60px;
+    color: #22252b;
+
+}
+
+.position{
+    width: 100%;
+    margin: 0px;
+
+}
+
+hr{
+    display: block;
+    width: 50%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0080ff;
+    margin: auto;
+}
+
+h3{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    font-family: LatoLight;
+    font-size: 20px;
+    color: #22252b;
+    letter-spacing: 3px;
+    line-height: 1.80;
+}
+
+h4{
+    width: 5%;
+    text-align: left;
+    margin: auto;
+    font-family: LatoRegular;
+    font-size: 30px;
+    color: #0080ff;
+    letter-spacing: 0px;
+    line-height: 1.80;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 70px;
+    margin: auto;
+}
+
+/* unvisited link */
+#b:link {
+    color: #0080ff;
+}
+
+/* visited link */
+#b:visited {
+    color: #3e6bb4;
+}
+
+/* mouse over link */
+#b:hover {
+    color: #0080ff;
+}
+
+/* selected link */
+#b:active {
+    color: #3e6bb4;
+}
+
+footer{
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    bottom: 0;
+    height:100vh;
+    background: #22252b;
+
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #e8e8eb;
+    text-align: center;
+    line-height: 1.80;
+
+}
+
+.parte{
+
+    width: 50%;
+    height: auto;
+    bottom: 0;
+    float: left;
+    margin: auto;
+}
+
+#evelynkirlianfooter{
+    width: 81.90px;
+    height: 32.10px;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#github{
+    width: 33px;
+    height: 33px;
+    padding: 5px;
+    padding-top: 50px;
+    cursor: pointer;
+    background: #e8e8eb;
+}
+
+.box {
+
+    float: left;
+    width: 33.33%;
+    padding-top: 70px;
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #22252b;
+    text-align: center;
+    line-height: 1.80;
+    background: #fff;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.container2{
+    width:100%;
+    margin: auto;
+}
+
+h5 {
+    text-align: center;
+    margin: auto;
+    font-family: LatoRegular;
+    font-size: 20px;
+    color: #0080ff;
+    letter-spacing: 0px;
+    line-height: 1.0;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.typecode{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.blogmami{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+    margin: auto;
+    width: 200px;
+    height: 126.5px;
+}
+
+#psantos{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+    margin: auto;
+    width: 200px;
+    height: 126.5px;
+}
+
+.image{
+    margin: auto;
+    height: 200px;
+    width: 300px;
+}

@@ -231,6 +231,7 @@ h4{
     width: 5%;
     text-align: center;
     margin: auto;
+    margin-bottom: 30px;
     font-family: LatoRegular;
     font-size: 30px;
     color: #0080ff;
@@ -274,11 +275,15 @@ h4{
     color: #22252b;
     text-align: center;
     line-height: 1.80;
+    margin: auto;
+    background: #ffffff;
+    height: 430px;
+
 }
 
 .container2{
     margin: auto;
-    width:60%;
+    width:94%;
 }
 
 h5{
@@ -304,7 +309,8 @@ footer{
     margin-top: 50px;
     float: left;
     width: 100%;
-    height: 200px;
+    bottom: 0;
+    height:100vh;
     background: #22252b;
 
     font-family: LatoRegular;
@@ -318,7 +324,8 @@ footer{
 .parte{
 
     width: 50%;
-    height: 200px;
+    height: auto;
+    bottom: 0;
     float: left;
     margin: auto;
 }
@@ -344,5 +351,9 @@ footer{
     padding: 5px;
     padding-top: 50px;
     cursor: pointer;
+    background: #e8e8eb;
+}
 
+.texto{
+    margin: 0px;
 }

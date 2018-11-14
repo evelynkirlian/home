@@ -8,7 +8,7 @@ function typeWriter(elemento) {
 			elemento.innerHTML += letra;
 		}
 
-		setTimeout(add, 75*i)
+		setTimeout(add, 50*i)
 	}
 
 	textoArray.forEach(escrever);
