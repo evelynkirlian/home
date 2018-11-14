@@ -117,9 +117,8 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #3e6bb4;
+    color: #e8e8eb;
 }
-
 /* mouse over link */
 a:hover {
     color: #0080ff;
@@ -356,4 +355,24 @@ footer{
 
 .texto{
     margin: 0px;
+}
+
+/* unvisited link */
+#c:link {
+    color: #0080ff;
+}
+
+/* visited link */
+#c:visited {
+    color: #3e6bb4;
+}
+
+/* mouse over link */
+#c:hover {
+    color: #0080ff;
+}
+
+/* selected link */
+#c:active {
+    color: #3e6bb4;
 }

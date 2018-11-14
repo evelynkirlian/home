@@ -1,6 +1,6 @@
 body{
 	background-color: #e8e8eb;
-	margin: 0px;
+	margin: auto;
 }
 
 /* A Modal (background) */
@@ -92,8 +92,8 @@ body{
 ul {
     list-style-type: none;
     border-right: 0px; 
-    padding: 0;
-    margin:0;
+    padding: auto;
+    margin:auto;
     width: 300px;
 }
 
@@ -117,7 +117,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #3e6bb4;
+    color: #e8e8eb;
 }
 
 /* mouse over link */
@@ -259,7 +259,7 @@ h4{
 }
 
 .box {
-
+    display: flex;
     float: left;
     width: 25%;
     padding-top: 70px;
@@ -271,7 +271,9 @@ h4{
 }
 
 .container2{
-    width:100%;
+    width: auto;
+    height: 350px;
+    margin: auto;
 }
 
 footer{
