@@ -8,7 +8,11 @@ function setup() {
   frameRate(60);
   background('#22252b');
 
+<<<<<<< HEAD
   logofunction(windowWidth/2,windowHeight*0.35,250,150,150,150);
+=======
+  logofunction(windowWidth/2,300,250,150,150,150);
+>>>>>>> acd48561d4537f7a5bb0355c338518e3ab5117af
 
   var i;
   for(i=0;i<9;i++){
