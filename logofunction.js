@@ -7,7 +7,7 @@ function setup() {
   frameRate(60);
   background('#22252b');
 
-  logofunction(windowWidth/2, windowHeight*0.35, 250, 150, 150, 150);
+  logofunction(windowWidth/2, 200, 200, 150, 150, 150);
 
   var i;
   for(i=0;i<9;i++){
