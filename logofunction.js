@@ -1,4 +1,3 @@
-
 var doisx, doisy, tresy, dezx, dezy, quatrox, cincox, cincoy, seisx, seisy, setex, setey, oitoy, pa, pb;
 
 var movs = [];
